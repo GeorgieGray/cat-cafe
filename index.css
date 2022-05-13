@@ -1,0 +1,54 @@
+.banner {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url("./resources/images/cat_lying_down_background.jfif");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin-top: 70px;
+    color: #593823;
+    font-style: italic;
+}
+
+.welcome h2 {
+    font-size: 22px;
+    color: #D15237;
+    align-self: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.what-is-it {
+    display: flex;
+    flex-direction: column;
+}
+
+.what-is-it h3 {
+    font-size: 20px;
+    color: #D15237;
+    align-self: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    color: #593823;
+    /* width: 600px;  */
+    margin-bottom: 12px;
+}
+
+.cat-art {
+    margin: 20px 0;
+}

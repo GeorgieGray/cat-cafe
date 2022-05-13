@@ -1,0 +1,42 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f4f0;
+}
+
+footer {
+    margin-top: auto;
+    min-width: 100%;
+    justify-self: flex-end;
+    background-image: url("/resources/images/pattern-coffee-cup.jpg");
+    height: 90px;
+    background-size: contain;
+    background-position-y: 6px;
+    background-repeat: repeat-x;
+}
+
+.navbar {
+    min-width: 100%
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 100%;
+    padding: 10px;
+}
+
+.navlink a {
+    color: #D15237;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    width: 600px;
+}
